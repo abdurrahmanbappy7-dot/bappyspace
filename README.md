@@ -52,7 +52,7 @@ npm run preview    # preview the production build locally
 | --- | --- |
 | Profile photo | Put `profile.jpg` in `public/images/`, set `photo: '/images/profile.jpg'` in `src/data/profile.ts` |
 | GitHub / LinkedIn / Facebook | Fill the `href` values in `socials` in `src/data/profile.ts` (empty = shown as "coming soon") |
-| Resume | Replace `public/resume.pdf` (currently a one-page placeholder) |
+| Resume | Replace `` (currently a one-page placeholder) |
 | Skills | Add objects to the groups in `src/data/skills.ts` |
 | Projects | Edit `src/data/projects.ts`; remove `placeholder: true` for real projects; thumbnails in `public/images/projects/` |
 | Experience dates | Fill `period` in `src/data/experience.ts` |
